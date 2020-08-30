@@ -18,11 +18,11 @@ After analyzing all data supplied to HR department in csv form by using PostgreS
 
   - Total headcount elegible for retiring is 90,398
   
-  - Categorized the retirement count to title and Senior Engineer and Senior Staff
+  - Categorized the retirement count by title and Senior Engineer and Senior Staff are the majority that's going to retire in the future years, consist approx. 64% of the total retiring population.
   
-  - To identify employees who are eligible to participate in a mentorship program.
+  - 1,549 employees are elegible for mentorship program, refer to mentorship_eligibility csv for details.
   
-  - To identify employees who are eligible to participate in a mentorship program.
+  - 43,378 employees had multiple titles throught the work years at Pewlett-Hackard.
   
 ### Summary
 
