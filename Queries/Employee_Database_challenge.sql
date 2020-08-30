@@ -47,3 +47,27 @@ ORDER BY COUNT desc;
 SELECT * FROM Retiring_Titles;
 
 -- Deliverable 2
+
+CREATE TABLE dept_emp (
+  emp_no INT NOT NULL,
+  dept_no VARCHAR(4) NOT NULL,
+  from_date DATE NOT NULL,
+  to_date DATE NOT NULL,
+FOREIGN KEY (emp_no) REFERENCES employees (emp_no)
+);
+
+SELECT DISTINCT ON (employees.emp_no)employees.emp_no,
+       employees.first_name,
+	   employees.last_name,
+	   employees.birth_date,
+	   dept_emp.from_date,
+	   dept_emp.to_date,
+	   titles.title
+INTO mentorship_eligibility
+FROM employees
+INNER JOIN dept_emp ON (employees.emp_no=dept_emp.emp_no)
+INNER JOIN titles ON (employees.emp_no=titles.emp_no)
+WHERE (employees.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+AND (dept_emp.to_date = '9999-01-01')
+ORDER BY employees.emp_no;
+SELECT * FROM mentorship_eligibility;
