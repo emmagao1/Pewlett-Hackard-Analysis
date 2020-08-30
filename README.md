@@ -14,7 +14,7 @@ This project is designed to help HR department to plan for future retirement for
 
 After analyzing all data supplied to HR department in csv form by using PostgreSQL, we have gathered below infomration for future planning:
 
-
+![analysis summary](https://github.com/emmagao1/Pewlett-Hackard-Analysis/blob/master/Resources/Capture.PNG)
 
   - Total headcount elegible for retiring is 90,398
   
