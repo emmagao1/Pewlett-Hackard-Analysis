@@ -26,6 +26,4 @@ After analyzing all data supplied to HR department in csv form by using PostgreS
   
 ### Summary
 
-  - Look at historical salary level and factoring in the inflation to calculate the budget for new hires
-  
-  - Design mentor programs to have junior employees trained within the retiring timeline
+We have performed retirement analysis and concluded the total headcount eligible for retiring and the number of employees qualify for the mentorship program. We can further look into historical salary level and factoring in the inflation to calculate the budget for new hires. In additional, we can design mentor programs to have junior employees trained within the retiring timeline.
