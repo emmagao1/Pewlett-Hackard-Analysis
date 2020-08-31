@@ -26,8 +26,6 @@ After analyzing all data supplied to HR department in csv form by using PostgreS
   
 ### Summary
 
-** The summary addresses the two questions and contains two additional queries or tables that may provide more insight.**
-
   - Look at historical salary level and factoring in the inflation to calculate the budget for new hires
   
   - Design mentor programs to have junior employees trained within the retiring timeline
